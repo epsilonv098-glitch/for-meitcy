@@ -4,3 +4,6 @@ dist
 data/responses.json
 .env
 .env.local
+.config
+.npm
+.next
