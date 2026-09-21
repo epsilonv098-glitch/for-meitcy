@@ -1,0 +1,22 @@
+FOR MEITCY - PHONE UPLOAD IN 3 MINUTES
+
+If you are on Android / iPhone and don't have Termux:
+
+1. Download this project as ZIP from here (Arena workspace -> Download)
+2. Unzip on phone using Files app
+3. Go to github.com/YOUR_USERNAME -> New Repo -> for-meitcy -> Create
+4. Inside repo, tap Add file -> Upload files
+5. Upload in 2 batches to avoid error:
+   Batch 1: All files in src/ folder
+            Keep folder structure! Upload src folder as is.
+   Batch 2: public/ folder + package.json + config files
+6. Commit
+7. Go to vercel.com, login with GitHub, Import for-meitcy, Deploy
+
+That's it.
+
+If upload fails:
+- Use GitHub mobile app -> it handles folders better
+- Or use Working Copy app (iOS) or MGit (Android) to clone and push
+
+Need exact API commands? See DEPLOY_GUIDE.md
